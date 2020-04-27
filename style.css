@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h2{ margin: 10px;}
+
+body{ background-color: #ededed;}
+
+div{
+    padding:  30px;
+    background-color: #fff;
+    margin: 50px;
+}
+input{
+    padding: 9px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    width: 80%;
+    display: block;
+    margin: 10px 0;
+}
+.voice-box{
+    padding: 9px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    width: 80%;
+    min-height: 200px;
+    padding: 0;
+    margin: 10px 0;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.circle-button{
+    
+    border: 8px solid rgb(214, 214, 214);
+    color: rgb(214, 214, 214);
+}
+.circle-button-stop{
+    border: 8px solid rgb(195, 174, 174);
+    color: rgb(214, 214, 214);
+    color: red;
+    display: none;
+}
+.stop{
+    color: red;
+}

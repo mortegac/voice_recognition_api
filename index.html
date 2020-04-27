@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de concepto - API de grabación</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://icono-49d6.kxcdn.com/icono.min.css" rel="stylesheet" >
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div>
+        <h2>Transformar texto a voz</h2>
+        <input type="text" id="textTotransform">
+        <button type="button" id="setTalk" class="circle circle-button">
+            <i class="icono-microphone"></i>
+            <span>Hablar</span>
+        </button>
+    </div>
+
+    <div>
+        <h2>Transformar voz a texto</h2>
+        <div class="voice-box" id="texto"></div>
+        
+            <button type="button" id="setStart" class="circle circle-button">
+                <i class="icono-microphone"></i>
+                <span>Grabar</span>
+            </button>
+            <button type="button" id="setFinished" class="circle circle-button-stop">
+                <i class="icono-microphone stop"></i>
+                <span>Detener</span>
+            </button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
